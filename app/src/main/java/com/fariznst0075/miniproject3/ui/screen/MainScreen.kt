@@ -419,7 +419,6 @@ private suspend fun handleSignIn(result: GetCredentialResponse, dataStore: UserD
     }
 }
 
-
 private suspend fun signOut(context: Context, dataStore: UserDataStore){
     try {
         val credentialManager = CredentialManager.create(context)

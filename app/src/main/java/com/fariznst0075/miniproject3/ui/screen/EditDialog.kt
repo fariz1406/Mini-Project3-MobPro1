@@ -63,7 +63,6 @@ fun EditDialog(
                         .aspectRatio(1f)
                 )
 
-
                 OutlinedTextField(
                     value = title,
                     onValueChange = { title = it },
