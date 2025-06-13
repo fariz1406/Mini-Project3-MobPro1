@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
 }
 
+
 android {
     namespace = "com.fariznst0075.miniproject3"
     compileSdk = 35
